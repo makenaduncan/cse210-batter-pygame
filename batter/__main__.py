@@ -29,6 +29,10 @@ def main():
     boxes.append(box)
     cast["boxes"] = boxes
 
+    cast["artifacts"] = []
+
+    
+
 
     # Create the script {key: tag, value: list}
     script = {}
